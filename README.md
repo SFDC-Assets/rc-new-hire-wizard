@@ -4,6 +4,7 @@ This has a New Hire Wizard for demos. Nothing happens at the end of it. The empl
 
 ![New Hire Wizard](docs/images/newHireWizard1.png)
 
+This has a dependency on the 7 Summits Profile Wizard package on the AppExchange here -> https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FMYgIUAX. But if you deploy using CumulusCI described below, this dependency will be deployed for you automatically.
 
 ## Development
 
