@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rc-new-hire-wizard</fullName>
+    <types>
+        <members>VolunteerEventController_Test</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Contact.Employee_Status__c</members>
+        <members>User.is_Guide__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Employee_Onboarding</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>rcEmployee_Onboarding</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>rcNew_Hire_Wizard</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Contact-Employee Contact Layout</members>
+        <members>User-Employee User Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Contact.rcContacts_As_Employees</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>rcNew_Hire_Wizard</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>rcNewHireWizardBanner</members>
+        <name>StaticResource</name>
+    </types>
+    <version>50.0</version>
+</Package>

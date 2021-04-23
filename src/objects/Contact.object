@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Employee_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Employee Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New Hire</fullName>
+                    <default>false</default>
+                    <label>New Hire</label>
+                </value>
+                <value>
+                    <fullName>Full Time Employee</fullName>
+                    <default>false</default>
+                    <label>Full Time Employee</label>
+                </value>
+                <value>
+                    <fullName>Previous Employee</fullName>
+                    <default>false</default>
+                    <label>Previous Employee</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <listViews>
+        <fullName>rcContacts_As_Employees</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>Employee_Status__c</columns>
+        <filterScope>Mine</filterScope>
+        <label>Contacts As Employees</label>
+    </listViews>
+</CustomObject>
