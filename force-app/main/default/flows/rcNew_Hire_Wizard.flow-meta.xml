@@ -405,7 +405,7 @@
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
         <connector>
-            <targetReference>screen4_0</targetReference>
+            <targetReference>screen5</targetReference>
         </connector>
         <fields>
             <name>screen4_progressIndicator</name>
@@ -437,8 +437,8 @@
         <showHeader>true</showHeader>
     </screens>
     <screens>
-        <name>screen4_0</name>
-        <label>Select Guide</label>
+        <name>screen5</name>
+        <label>Summary</label>
         <locationX>176</locationX>
         <locationY>638</locationY>
         <allowBack>true</allowBack>
@@ -458,8 +458,8 @@
             <storeOutputAutomatically>true</storeOutputAutomatically>
         </fields>
         <fields>
-            <name>screen1_welcomeText_0_0</name>
-            <fieldText>&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Your new hire is ready to go!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;New Hire: {!newHireEmployeeName}&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Laptop: &lt;/b&gt;{!screen2_laptopToggle.value}&lt;/p&gt;&lt;p&gt;&lt;b&gt;Type:&lt;/b&gt; {!screen2_laptopChoice}&lt;/p&gt;&lt;p&gt;&lt;b&gt;Desktop&lt;/b&gt;: {!screen2_desktopToggle.value}&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;WebEx&lt;/b&gt;: {!screen3_webexToggle.value}&lt;/p&gt;&lt;p&gt;&lt;b&gt;Snagit:&lt;/b&gt; {!screen3_snagitToggle.value}&lt;/p&gt;&lt;p&gt;&lt;b&gt;Microsoft Office:&lt;/b&gt; {!screen3_officeToggle.value}&lt;/p&gt;</fieldText>
+            <name>screen5_summary</name>
+            <fieldText>&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Your new hire is ready to go!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;New Hire: {!newHireEmployeeName}&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Laptop: &lt;/b&gt;{!screen2_laptopToggle.value}&lt;/p&gt;&lt;p&gt;&lt;b&gt;Type:&lt;/b&gt; {!screen2_laptopChoice}&lt;/p&gt;&lt;p&gt;&lt;b&gt;Desktop&lt;/b&gt;: {!screen2_desktopToggle.value}&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;WebEx&lt;/b&gt;: {!screen3_webexToggle.value}&lt;/p&gt;&lt;p&gt;&lt;b&gt;Snagit:&lt;/b&gt; {!screen3_snagitToggle.value}&lt;/p&gt;&lt;p&gt;&lt;b&gt;Microsoft Office:&lt;/b&gt; {!screen3_officeToggle.value}&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Onboarding Mentor: &lt;/b&gt;{!guideEmployeeName}&lt;span class=&quot;ql-cursor&quot;&gt;﻿&lt;/span&gt;&lt;/p&gt;</fieldText>
             <fieldType>DisplayText</fieldType>
         </fields>
         <showFooter>true</showFooter>
