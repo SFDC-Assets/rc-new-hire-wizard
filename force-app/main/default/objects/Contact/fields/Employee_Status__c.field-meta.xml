@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Employee_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Employee Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New Hire</fullName>
+                <default>false</default>
+                <label>New Hire</label>
+            </value>
+            <value>
+                <fullName>Full Time Employee</fullName>
+                <default>false</default>
+                <label>Full Time Employee</label>
+            </value>
+            <value>
+                <fullName>Previous Employee</fullName>
+                <default>false</default>
+                <label>Previous Employee</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

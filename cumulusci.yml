@@ -1,0 +1,27 @@
+minimum_cumulusci_version: '3.33.1'
+project:
+    name: rc-new-hire-wizard
+    package:
+        name: rc-new-hire-wizard
+        api_version: '50.0'
+    git:
+    source_format: sfdx
+    dependencies:
+        - namespace: x7s_prowiz
+          version: 1.3
+
+tasks:
+    robot:
+        options:
+            suites: robot/rc-new-hire-wizard/tests
+            options:
+                outputdir: robot/rc-new-hire-wizard/results
+
+    robot_testdoc:
+        options:
+            path: robot/rc-new-hire-wizard/tests
+            output: robot/rc-new-hire-wizard/doc/rc-new-hire-wizard_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75
