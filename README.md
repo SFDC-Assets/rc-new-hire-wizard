@@ -1,8 +1,9 @@
 ## rc-new-hire-wizard
 
-This has a New Hire Wizard for demos. Nothing happens at the end of it. 
-The employees to select to onboard come from a look up for Contacts that have 'Employee Status' = 'New Hire'. 
-The onboarding mentors to select come from a look up on Users who have the 'Is Guide' checkbox set to true.
+This has a New Hire Wizard for demos. Nothing happens at the end of it. The employees to select to onboard come from a look up for Contacts that have 'Employee Status' = 'New Hire'. The onboarding mentors to select come from a look up on Users who have the 'Is Guide' checkbox set to true.
+
+![New Hire Wizard](docs/images/newHireWizard1.png)
+
 
 ## Development
 
